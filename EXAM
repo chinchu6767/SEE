@@ -1,1 +1,17 @@
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
 
+# Calculate the sum
+result = num1 + num2
+
+# Display the result
+print("The sum of the two numbers is:", result)
+
+
+CO PILOT CODE 
+    num1 = int(input("Enter 1st number: "))
+    num2 = int(input("Enter 2nd number: "))
+    result = num1 + num2
+    print("The sum of the two numbers is:", result)
+except ValueError:
+    print("Please enter valid integers.")
